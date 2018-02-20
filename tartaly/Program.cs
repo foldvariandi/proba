@@ -3,7 +3,9 @@
 namespace tartaly
 {
     class Program
-    {
+    { 
+        Console.WriteLine("Szia User");
+
         static double korTerulete(double sugar)
         {
             double terulet = Math.Pow(sugar, 2) * Math.PI;
